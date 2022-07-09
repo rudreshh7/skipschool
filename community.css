@@ -1,0 +1,216 @@
+                                                                                                                                                                            body {
+                                                                                                                                                                            margin: 0 0 0 0;
+                                                                                                                                                                            font-family: Arial, Helvetica, sans-serif;
+                                                                                                                                                                            background: linear-gradient( 135deg, #ffffff 0%, #f0f0f0 25%, #ffffff 44.27%, #e4e3e3 69.79%, #d2d2d2 100%);
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        header {
+                                                                                                                                                                            display: flex;
+                                                                                                                                                                            justify-content: space-between;
+                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                            background: #fafafa;
+                                                                                                                                                                            font-size: 18px;
+                                                                                                                                                                            font-weight: 500;
+                                                                                                                                                                            font-family: "Roboto", sans-serif;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .logo {
+                                                                                                                                                                            margin-top: 20px;
+                                                                                                                                                                            font-weight: 600;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .header_menu {
+                                                                                                                                                                            display: flex;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .header_menu ul {
+                                                                                                                                                                            display: flex;
+                                                                                                                                                                            margin-top: 10px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .header_menu li,
+                                                                                                                                                                        a {
+                                                                                                                                                                            text-decoration: none;
+                                                                                                                                                                            list-style: none;
+                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                            color: black;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .SignUp {
+                                                                                                                                                                            display: flex;
+                                                                                                                                                                            margin-top: 9px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .bar #bar {
+                                                                                                                                                                            display: inline-block;
+                                                                                                                                                                            margin-top: 10px;
+                                                                                                                                                                            font-size: 22px;
+                                                                                                                                                                            display: none;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .header_menu a:hover {
+                                                                                                                                                                            text-decoration: underline;
+                                                                                                                                                                            font-weight: 600;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .header_menu a:checked {
+                                                                                                                                                                            text-decoration: underline;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        main {
+                                                                                                                                                                            display: flex;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .main_text p {
+                                                                                                                                                                            width: 550px;
+                                                                                                                                                                            margin-left: 100px;
+                                                                                                                                                                            font-family: 'Poppins', sans-serif;
+                                                                                                                                                                            font-weight: 400;
+                                                                                                                                                                            font-size: 1.4rem;
+                                                                                                                                                                            line-height: 28px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        main {
+                                                                                                                                                                            font-family: Inter;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        main h1 {
+                                                                                                                                                                            ffont-weight: 800;
+                                                                                                                                                                            font-size: 45px;
+                                                                                                                                                                            line-height: 77px;
+                                                                                                                                                                            margin-left: 100px;
+                                                                                                                                                                            letter-spacing: 2.5px;
+                                                                                                                                                                            font-family: 'Poppins', sans-serif;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .main_text span {
+                                                                                                                                                                            color: #2266eb;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        #landing_button {
+                                                                                                                                                                            background: linear-gradient( 180deg, #0037fc 0%, rgba(100, 13, 243, 0.66) 100%);
+                                                                                                                                                                            width: 130px;
+                                                                                                                                                                            padding: 10px;
+                                                                                                                                                                            color: rgb(238, 238, 238);
+                                                                                                                                                                            margin-left: 100px;
+                                                                                                                                                                            margin-top: 40px;
+                                                                                                                                                                            font-size: 18px;
+                                                                                                                                                                            text-decoration: none;
+                                                                                                                                                                            border: 1px solid rgb(59, 16, 158);
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        #landing_button a {
+                                                                                                                                                                            color: white;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .joinheading {
+                                                                                                                                                                            margin-top: 300px;
+                                                                                                                                                                            text-align: center;
+                                                                                                                                                                            font-family: Inter;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .join_button {
+                                                                                                                                                                            text-align: center;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .join_button button {
+                                                                                                                                                                            width: 220px;
+                                                                                                                                                                            height: 81px;
+                                                                                                                                                                            color: white;
+                                                                                                                                                                            border: none;
+                                                                                                                                                                            font-size: 16px;
+                                                                                                                                                                            margin-bottom: 100px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .join_button #Discord {
+                                                                                                                                                                            background: #5865F2;
+                                                                                                                                                                            margin-left: 10px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .join_button #whatsapp {
+                                                                                                                                                                            background: #25D366;
+                                                                                                                                                                            margin-right: 10px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .join_button #Discord:hover {
+                                                                                                                                                                            transform: scale(1.05);
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .join_button #whatsapp:hover {
+                                                                                                                                                                            transform: scale(1.05);
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        footer {
+                                                                                                                                                                            display: grid;
+                                                                                                                                                                            grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+                                                                                                                                                                            background-color: black;
+                                                                                                                                                                            color: white;
+                                                                                                                                                                            padding-bottom: 70px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .footer_aboutus {
+                                                                                                                                                                            width: 390px;
+                                                                                                                                                                            margin: auto;
+                                                                                                                                                                            font-family: "Roboto", sans-serif;
+                                                                                                                                                                            letter-spacing: 1.5px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .directlinks {
+                                                                                                                                                                            margin: auto;
+                                                                                                                                                                            color: white;
+                                                                                                                                                                            text-align: justify;
+                                                                                                                                                                            font-family: "Roboto", sans-serif;
+                                                                                                                                                                            letter-spacing: 1.5px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .directlinks li {
+                                                                                                                                                                            list-style-type: none;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .directlinks a {
+                                                                                                                                                                            color: white;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .footer_social {
+                                                                                                                                                                            margin: auto;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        .footer_social i {
+                                                                                                                                                                            cursor: pointer;
+                                                                                                                                                                            padding: 4px;
+                                                                                                                                                                            font-size: 18px;
+                                                                                                                                                                        }
+                                                                                                                                                                        
+                                                                                                                                                                        @media screen and (max-width: 920px) {
+                                                                                                                                                                            .header_menu {
+                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                left: -500px;
+                                                                                                                                                                                top: 50px;
+                                                                                                                                                                                background: #fafafa;
+                                                                                                                                                                                height: 100%;
+                                                                                                                                                                                transition: 1s all ease;
+                                                                                                                                                                            }
+                                                                                                                                                                            .header_menu ul {
+                                                                                                                                                                                display: inline;
+                                                                                                                                                                            }
+                                                                                                                                                                            .header_menu.active {
+                                                                                                                                                                                transition: 0.7s all ease;
+                                                                                                                                                                                left: -50px;
+                                                                                                                                                                            }
+                                                                                                                                                                            .header_menu a {
+                                                                                                                                                                                color: rgb(0, 0, 0);
+                                                                                                                                                                                padding: 10px;
+                                                                                                                                                                            }
+                                                                                                                                                                            .header_menu li {
+                                                                                                                                                                                margin-top: 20px;
+                                                                                                                                                                            }
+                                                                                                                                                                            .bar #bar {
+                                                                                                                                                                                display: block;
+                                                                                                                                                                                font-size: 27px;
+                                                                                                                                                                                margin-top: 7px;
+                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                right: 40px;
+                                                                                                                                                                            }
+                                                                                                                                                                            .SignUp {
+                                                                                                                                                                                margin-right: 100px;
+                                                                                                                                                                            }

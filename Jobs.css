@@ -1,0 +1,88 @@
+body {
+    margin: 0 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient( 135deg, #ffffff 0%, #f0f0f0 25%, #ffffff 44.27%, #e4e3e3 69.79%, #d2d2d2 100%); */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #fafafa;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.header_menu {
+    display: flex;
+}
+
+.header_menu ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+.header_menu li,
+a {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    color: black;
+}
+
+.SignUp {
+    display: flex;
+    margin-top: 9px;
+}
+
+.bar #bar {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 22px;
+    display: none;
+}
+
+.header_menu a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.header_menu a:checked {
+    text-decoration: underline;
+}
+
+.main h1 {
+    font-weight: 500;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    font-size: 100px;
+}
+
+@keyframes blink {
+    50% {
+        color: transparent
+    }
+}
+
+.loader__dot {
+    animation: 1s blink infinite
+}
+
+.loader__dot:nth-child(2) {
+    animation-delay: 250ms
+}
+
+.loader__dot:nth-child(3) {
+    animation-delay: 500ms
+}
